@@ -1,0 +1,17 @@
+# Scan results (may contain sensitive data)
+scan_results/*.xml
+scan_results/*.gnmap
+ 
+# Reports with real scan data
+reports/*_real_*
+ 
+# OS and editor files
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+ 
+# Python
+__pycache__/
+*.pyc
